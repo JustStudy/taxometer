@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+
+            android:title="@string/text_pref_gps_time_title"
+            android:summary="@string/text_pref_gps_time_subtitle"
+            android:key="@string/text_shared_pref_name_key_frequency_gps_list"
+            android:entries="@array/gps_time_frequency_text"
+            android:entryValues="@array/gps_time_frequency_values"/>
+
+    <ListPreference
+
+            android:key="@string/text_shared_pref_name_key_distance_gps_list"
+            android:entries="@array/gps_min_distance_update_text"
+            android:summary="@string/text_pref_gps_dist_subtitle"
+            android:entryValues="@array/gps_min_distance_update_values"
+            android:title="@string/text_pref_gps_dist_title"/>
+</PreferenceScreen>

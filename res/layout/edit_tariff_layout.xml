@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+               android:id="@+id/rootRelativeEditTariff"
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent">
+    <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollViewEditSomeTariff" android:layout_above="@+id/bottomLinearLayoutEditTariff"
+            android:layout_alignParentTop="true">
+
+        <LinearLayout   android:id="@+id/rootLinearInScrollViewEditTariffLayout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_context_menu_edit_tariff"
+                    android:id="@+id/textViewTariffEdit"
+                    android:layout_marginLeft="20dp" android:layout_marginTop="10dp"
+                    android:layout_gravity="center_horizontal"/>
+
+            <include layout="@layout/item"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/includeNameRouteSection"/>
+            <include layout="@layout/item"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/includePricePerKMSection"/>
+            <include layout="@layout/item"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/includeStartPriceSection"/>
+            <include layout="@layout/item"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/includeAnimalSection"/>
+            <include layout="@layout/item"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/includeLuggageSection"/>
+            <include layout="@layout/item"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/includeSmokeSection"/>
+            <include layout="@layout/item"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/includeOthersSection"/>
+            <include layout="@layout/item"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/includeChildrenChairSection"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+    <LinearLayout android:id="@+id/bottomLinearLayoutEditTariff" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"
+                  android:layout_margin="5dp" android:layout_alignParentBottom="true">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_save_tariff"
+                android:id="@+id/buttonSaveData"
+                android:textSize="@dimen/text_size_button_edit_tariff_layout" android:layout_gravity="center"/>
+
+    </LinearLayout>
+</RelativeLayout>
+
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_start_taximeter"
+            android:id="@+id/buttonStartTaximeter" android:layout_above="@+id/buttonConfigurations" android:layout_centerHorizontal="true"
+            android:layout_alignLeft="@+id/buttonConfigurations" android:layout_alignRight="@+id/buttonConfigurations"/>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_config"
+            android:id="@+id/buttonConfigurations" android:layout_centerInParent="true" android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_exit"
+            android:id="@+id/buttonExit" android:layout_centerHorizontal="true" android:layout_below="@+id/buttonGoToTariffsList"
+            android:layout_alignRight="@+id/buttonConfigurations" android:layout_alignLeft="@+id/buttonConfigurations"/>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_edit_tariffs"
+            android:id="@+id/buttonGoToTariffsList" android:layout_below="@+id/buttonConfigurations" android:layout_alignLeft="@+id/buttonConfigurations"
+            android:layout_alignStart="@+id/buttonExit"
+            android:layout_alignRight="@+id/buttonConfigurations"/>
+</RelativeLayout>

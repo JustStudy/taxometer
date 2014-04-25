@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.developer.taxometer"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="19"/>
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher"
+                 android:theme="@style/Theme.Sherlock.Light" android:name=".TaximeterApplication">
+
+        <activity android:name=".activities.MainStartActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.TaximeterActivity"
+                  android:parentActivityName=".activities.MainStartActivity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.developer.taxometer.activities.MainStartActivity"/>
+
+        </activity>
+        <activity android:name=".activities.ConfigurationActivity"
+                  android:parentActivityName=".activities.MainStartActivity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.developer.taxometer.activities.MainStartActivity"/>
+        </activity>
+        <activity android:name=".activities.TariffsListActivity"
+                  android:parentActivityName=".activities.MainStartActivity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.developer.taxometer.activities.MainStartActivity"/>
+        </activity>
+        <activity android:name=".activities.EditSomeTariffActivity"
+                  android:parentActivityName=".activities.TariffsListActivity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.developer.taxometer.activities.TariffsListActivity"/>
+        </activity>
+        <activity android:name=".activities.ManipulateTariffActivity">
+            />
+        </activity>
+        <activity android:name=".activities.CreateNewTariffActivity"
+                  android:parentActivityName=".activities.TariffsListActivity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.developer.taxometer.activities.TariffsListActivity"/>
+        </activity>
+
+        <activity android:name=".activities.StartRouteActivity"
+                  android:parentActivityName=".activities.MainStartActivity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.developer.taxometer.activities.MainStartActivity"/>
+        </activity>
+
+        <activity android:name=".activities.ResultRouteActivity"
+                  android:parentActivityName=".activities.MainStartActivity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.developer.taxometer.activities.MainStartActivity"/>
+        </activity>
+
+        <service android:name=".services.LocationService">
+
+        </service>
+    </application>
+
+</manifest>

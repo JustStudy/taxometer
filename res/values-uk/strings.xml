@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+      <string name="menu_text_add_tariff">додати тариф</string>
+    <string name="app_name">Таксометер</string>
+    <string name="text_start_taximeter">Почати поїздку</string>
+    <string name="text_config">Налаштування</string>
+    <string name="text_exit">Вихід</string>
+    <string name="text_latitude">Широта: </string>
+    <string name="text_longitude">Довгота: </string>
+    <string name="text_distance">Дистанція: </string>
+    <string name="text_start_service">Почати маршрут</string>
+    <string name="text_stop_service">Закінчити маршрут</string>
+    <string name="hint_animal">тварина</string>
+    <string name="hint_luggage">багаж</string>
+    <string name="text_available_tariffs">Доступні тарифи</string>
+    <string name="text_edit_tariffs">Редагування тарифів</string>
+    <string name="text_route_name">Назва тарифу:</string>
+    <string name="text_route_price_per_km">Ціна за км:</string>
+    <string name="text_route_start_price">Початкова ціна: </string>
+    <string name="text_route_animal_price">Ціна за перевезення тварини:</string>
+    <string name="text_route_luggage_price">Ціна за перевезення багажу:</string>
+    <string name="text_route_smoke_price">Ціна куріння в салоні:</string>
+    <string name="text_route_children_chair_price">Ціна за дитяче крісло:</string>
+    <string name="text_route_others_price">Вартість додаткових послуг:</string>
+    <string name="text_save_tariff">Зберегти тариф</string>
+
+    <string name="alert_dialog_text_header">Який тариф використати для поїздки?</string>
+    <string name="alert_dialog_text_check_box">Не показувати цей діалог в майбутньому</string>
+    <string name="alert_dialog_text_button_default">Використати тариф за замовчуванням</string>
+
+    <string name="text_route_layout_cash_to_pay">До сплати:</string>
+    <string name="text_route_layout_route_info">Інформація про тариф</string>
+    <string name="text_route_layout_distance">Дистанція:</string>
+    <string name="text_route_layout_speed">Швидкість:</string>
+    <string name="text_route_layout_route_time_info">Дані про маршрут:</string>
+    <string name="text_route_layout_route_addition_services">Додаткові сервіси</string>
+    <string name="text_route_layout_route_start">Старт поїздки</string>
+    <string name="text_route_layout_route_finish">Кінець</string>
+    <string name="text_route_layout_route_wait">Чекати</string>
+    <string name="text_route_layout_route_continue">Продовжити</string>
+    <string name="text_route_layout_route_exit">Вихід</string>
+    <string name="text_route_layout_addition_price">ціна: </string>
+    <string name="text_route_layout_meters">метрів</string>
+
+
+
+    <string name="preference_header_general">Загальні</string>
+    <string name="preference_header_gps_config">Налаштування GPS</string>
+
+
+
+    <string name="alert_dialog_exit_question">Ви впевненні, що хочете вийти?</string>
+    <string name="alert_dialog_exit_dialog">Вихід</string>
+    <string name="alert_dialog_text_yes">Так</string>
+    <string name="alert_dialog_text_no">Ні</string>
+    <string name="alert_dialog_attention">Увага</string>
+    <string name="alert_dialog_text_preparing_data">Почекайте поки готуються дані gps</string>
+    <string name="alert_dialog_text_title_choose_tariff">Вибір тарифу</string>
+
+    <string name="text_result_statistics">Статистика про маршрут:</string>
+    <string name="text_result_length_of_trip">Довжина поїздки: </string>
+    <string name="text_result_trip_time">Час поїздки: </string>
+    <string name="text_result_price_for_additional_services">Ціна за додаткові послуги: </string>
+    <string name="text_result_price_per_km">Ціна за кілометраж: </string>
+    <string name="text_result_total_price">Загальна ціна: </string>
+    <string name="text_result_to_main_layout">На головну</string>
+    <string name="text_result_save_trip_to_dp">Зберегти дані</string>
+    <string name="text_result_to_route_layout">Новий маршрут</string>
+    <string name="text_result_waiting_time">Час чекання:</string>
+    <string name="text_result_start_price">Початкова ціна:</string>
+    <string name="alert_dialog_text_no_tariffs">Немає доступних тарифів. Хочете створити тариф зараз?</string>
+    <string name="alert_dialog_text_no_default_tariff">У Вас немає тарифу за замовчуванням. Встановіть з доступних.</string>
+    <string name="alert_dialog_toast_text_chose_tariff">Обрано тариф:</string>
+
+    <string name="text_pref_gps_dist_subtitle">Вибір мінімальної дистанції оновлення GPS</string>
+    <string name="text_pref_gps_dist_title">Дистанція оновлення GPS</string>
+    <string name="text_pref_gps_time_subtitle">Вибір частоти оновлення GPS</string>
+    <string name="text_pref_gps_time_title">Частота оновлення GPS</string>
+    <string name="text_pref_lang_subtitle">Встановлення мови інтерфейсу програми</string>
+    <string name="pref_title_set_language">Обрати мову</string>
+    <string name="text_pref_money_list_title">Валюта</string>
+    <string name="text_pref_money_list_subtitle">Вибір валюти програми</string>
+
+    <string name="text_context_menu_edit_tariff">Редагувати тариф</string>
+    <string name="text_context_menu_set_as_default">Встановити за замовчуванням</string>
+    <string name="text_context_menu_delete_tariff">Видалити тариф</string>
+    <string name="text_context_menu_add_new_tariff">Додати новий тариф</string>
+
+    <string name="text_gps_dialog_title">Налаштування GPS</string>
+    <string name="text_gps_dialog_message">GPS не ввімкнено. Хочете перейти до налаштування GPS?</string>
+    <string name="text_gps_text_setting">Налаштування</string>
+    <string name="text_gps_text_cancel">Відміна</string>
+
+    <string name="text_whole_time">Поїздка:</string>
+    <string name="text_wait_time">Очікування:</string>
+
+</resources>

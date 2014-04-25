@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_button_edit_tariff_layout">14dp</dimen>
+    <dimen name="text_size_name_tariff_list_view_item">16dp</dimen>
+    <dimen name="radio_button_dimens_tariff_list_view_item">45dp</dimen>
+    <dimen name="addition_services_image_size">45dp</dimen>
+    <dimen name="size_margins_between_additional_services">5dp</dimen>
+    <dimen name="size_text_addition_service">12dp</dimen>
+    <dimen name="text_size_buttons_route_layout">12dp</dimen>
+
+    <dimen name="result_layout_text_view_left_margin">20dp</dimen>
+    <dimen name="result_big_divide_line_height">3dp</dimen>
+    <dimen name="result_small_divede_line_height">2dp</dimen>
+    <dimen name="result_layout_headers_size">16dp</dimen>
+    <dimen name="result_layout_margin_bottom_layout">40dp</dimen>
+    <dimen name="result_layout_statistics_header_top_margin">30dp</dimen>
+
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+     <string name="menu_text_add_tariff">add tariff</string>
+    <string name="app_name">taximeter</string>
+    <string name="text_start_taximeter">Start taximeter</string>
+    <string name="text_config">Configurations</string>
+    <string name="text_exit">Exit</string>
+    <string name="text_latitude">Latitude: </string>
+    <string name="text_longitude">Longitude: </string>
+    <string name="text_distance">Distance: </string>
+    <string name="text_start_service">Start location</string>
+    <string name="text_stop_service">Stop location</string>
+    <string name="hint_animal">animal</string>
+    <string name="hint_luggage">luggage</string>
+    <string name="text_available_tariffs">Available tariffs</string>
+    <string name="text_edit_tariffs">Edit tariffs</string>
+    <string name="text_route_name">Tariff name:</string>
+    <string name="text_route_price_per_km">Price per km: </string>
+    <string name="text_route_start_price">Start price: </string>
+    <string name="text_route_animal_price">Price for transport animal:</string>
+    <string name="text_route_luggage_price">Price for transport luggage:</string>
+    <string name="text_route_smoke_price">Price for smoke service:</string>
+    <string name="text_route_children_chair_price">Price for child chair service:</string>
+    <string name="text_route_others_price">Price for others services:</string>
+
+    <string name="alert_dialog_text_header">What tariff use for this ride?</string>
+    <string name="alert_dialog_text_check_box">Wil not show this dialog in future</string>
+    <string name="alert_dialog_text_button_default">Use default tariff</string>
+
+    <string name="text_route_layout_cash_to_pay">Cash to pay</string>
+    <string name="text_route_layout_route_info">Tariff information</string>
+    <string name="text_route_layout_distance">Distance:</string>
+    <string name="text_route_layout_speed">Speed:</string>
+    <string name="text_route_layout_route_time_info">Route time info:</string>
+    <string name="text_route_layout_route_addition_services">Addition services</string>
+    <string name="text_route_layout_route_start">Start route</string>
+    <string name="text_route_layout_route_finish">Finish route</string>
+    <string name="text_route_layout_route_wait">Wait</string>
+    <string name="text_route_layout_route_continue">Continue</string>
+    <string name="text_route_layout_route_exit">Exit</string>
+    <string name="text_route_layout_addition_price">price:</string>
+    <string name="text_route_layout_meters">meters</string>
+
+
+    <string name="preference_header_general">General</string>
+    <string name="preference_header_gps_config">GPS settings</string>
+   <string name="text_save_tariff">Save tariff</string>
+
+
+    <string name="alert_dialog_exit_question">Are you sure, that want exit?</string>
+    <string name="alert_dialog_exit_dialog">Exit dialog</string>
+    <string name="alert_dialog_text_yes">Yes</string>
+    <string name="alert_dialog_text_no">No</string>
+    <string name="alert_dialog_attention">Attention</string>
+    <string name="alert_dialog_text_preparing_data">Please,wait while gps preparing data</string>
+    <string name="alert_dialog_text_title_choose_tariff">Choose tariff</string>
+    <string name="alert_dialog_text_no_tariffs">There are no available tariffs. Do you want create tariff now?</string>
+    <string name="alert_dialog_text_no_default_tariff">There is no default tariff. Set one please.</string>
+    <string name="alert_dialog_toast_text_chose_tariff">Chose tariff </string>
+
+    <string name="text_result_statistics">Statistics about the trip:</string>
+    <string name="text_result_length_of_trip">Length of trip:</string>
+    <string name="text_result_trip_time">Trip time:</string>
+    <string name="text_result_price_for_additional_services">Price for additional services:</string>
+    <string name="text_result_price_per_km">Tariff price per km:</string>
+    <string name="text_result_total_price">Total price:</string>
+    <string name="text_result_to_main_layout">Home</string>
+    <string name="text_result_save_trip_to_dp">Save Trip Data</string>
+    <string name="text_result_to_route_layout">To Route Screen</string>
+    <string name="text_result_waiting_time">Waiting time:</string>
+    <string name="text_result_start_price">Start price:</string>
+
+
+
+    <string name="text_shared_pref_name_key_language_list">language_list</string>
+    <string name="text_shared_pref_name_key_frequency_gps_list">frequency_gps_list</string>
+    <string name="text_shared_pref_name_key_distance_gps_list">distance_gps_list</string>
+    <string name="text_shared_pref_name_key_money_list">money_list</string>
+
+    <string name="text_pref_gps_dist_subtitle">Set min distance value for GPS update</string>
+    <string name="text_pref_gps_dist_title">Min update distance</string>
+    <string name="text_pref_gps_time_subtitle">Set frequency for update position</string>
+    <string name="text_pref_gps_time_title">Min update time</string>
+    <string name="text_pref_lang_subtitle">Set interface language</string>
+    <string name="pref_title_set_language">Set language</string>
+    <string name="text_pref_money_list_title">App currency</string>
+    <string name="text_pref_money_list_subtitle">Set currency for transportation customers</string>
+
+    <string name="text_context_menu_edit_tariff">Edit tariff</string>
+    <string name="text_context_menu_set_as_default">Set as default</string>
+    <string name="text_context_menu_delete_tariff">Delete tariff</string>
+    <string name="text_context_menu_add_new_tariff">Add new tariff</string>
+
+    <string name="text_gps_dialog_title">GPS is settings</string>
+    <string name="text_gps_dialog_message">GPS is not enabled. Do you want to go to settings menu?</string>
+    <string name="text_gps_text_setting">Setting</string>
+    <string name="text_gps_text_cancel">Cancel</string>
+
+    <string name="text_whole_time">Whole time:</string>
+    <string name="text_wait_time">Wait time:</string>
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gps_time_frequency_text">
+        <item>1 second</item>
+        <item>2 seconds</item>
+        <item>5 seconds</item>
+        <item>7 seconds</item>
+    </string-array>
+    <string-array name="gps_time_frequency_values">
+        <item>1000</item>
+        <item>2000</item>
+        <item>5000</item>
+        <item>7000</item>
+    </string-array>
+
+    <string-array name="gps_min_distance_update_text">
+        <item>2 meters</item>
+        <item>5 meters</item>
+        <item>7 meters</item>
+        <item>10 meters</item>
+    </string-array>
+<string-array name="gps_min_distance_update_values">
+    <item>2.0</item>
+    <item>5.0</item>
+    <item>7.0</item>
+    <item>10.0</item>
+</string-array>
+
+    <string-array name="language_array_text">
+        <item>Russian</item>
+        <item>English</item>
+        <item>Ukrainian</item>
+    </string-array>
+    <string-array name="language_array_values">
+        <item>ru</item>
+        <item>en</item>
+        <item>uk</item>
+    </string-array>
+
+    <string-array name="money_array_text">
+        <item>hryvnia</item>
+        <item>dollar</item>
+        <item>rouble</item>
+    </string-array>
+    <string-array name="money_array_values">
+        <item>uah</item>
+        <item>usd</item>
+        <item>rub</item>
+    </string-array>
+</resources>

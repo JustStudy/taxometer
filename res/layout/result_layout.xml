@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_result_statistics"
+                android:id="@+id/textViewResultLayoutStatistics" android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/result_layout_statistics_header_top_margin" android:textSize="@dimen/result_layout_headers_size"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_result_length_of_trip"
+                android:id="@+id/textViewResultLayoutTripDistance" android:layout_marginLeft="@dimen/result_layout_text_view_left_margin"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="@dimen/result_layout_text_view_left_margin"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_result_trip_time"
+                android:id="@+id/textViewResultLayoutTripTime" android:layout_marginLeft="@dimen/result_layout_text_view_left_margin"
+                android:layout_marginTop="@dimen/result_layout_margin_between_views"
+                android:layout_marginRight="@dimen/result_layout_text_view_left_margin"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_result_waiting_time"
+                android:id="@+id/textViewResultLayoutWaitingTime"
+                android:layout_marginTop="@dimen/result_layout_margin_between_views"
+                android:layout_marginLeft="@dimen/result_layout_text_view_left_margin"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="@dimen/result_layout_text_view_left_margin"/>
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/result_big_divide_line_height"
+                android:id="@+id/imageView" android:background="@color/result_divide_line_color"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_result_price_for_additional_services"
+                android:id="@+id/textViewResultLayoutAdditionPrice" android:layout_marginLeft="@dimen/result_layout_text_view_left_margin"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="@dimen/result_layout_text_view_left_margin"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_result_start_price"
+                android:id="@+id/textViewResultLayoutStartPrice" android:layout_marginLeft="@dimen/result_layout_text_view_left_margin"
+                android:layout_marginTop="@dimen/result_layout_margin_between_views"
+                android:layout_marginRight="@dimen/result_layout_text_view_left_margin"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_result_price_per_km"
+                android:id="@+id/textViewResultLayoutPricePerKm" android:layout_marginLeft="@dimen/result_layout_text_view_left_margin"
+                android:layout_marginBottom="10dp" android:layout_marginTop="@dimen/result_layout_margin_between_views"
+                android:layout_marginRight="@dimen/result_layout_text_view_left_margin"/>
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/result_small_divede_line_height"
+                android:id="@+id/imageView2" android:background="@color/result_divide_line_color"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_result_total_price"
+                android:id="@+id/textViewResultLayoutTotalPrice" android:layout_marginTop="10dp"
+                android:layout_marginLeft="@dimen/result_layout_text_view_left_margin"
+                android:textSize="@dimen/result_layout_headers_size"
+                android:layout_marginRight="@dimen/result_layout_text_view_left_margin"/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_marginTop="@dimen/result_layout_margin_bottom_layout">
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_result_to_main_layout"
+                    android:id="@+id/buttonResultLayoutToHome" android:layout_weight="1"
+                    android:textSize="@dimen/result_layout_buttons_text_size" android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_result_to_route_layout"
+                    android:id="@+id/buttonResultLayoutToRoute" android:layout_weight="1"
+                    android:textSize="@dimen/result_layout_buttons_text_size" android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+        </ScrollView>

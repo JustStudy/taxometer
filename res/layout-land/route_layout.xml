@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/rootRelativeEditTariff"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/scrollView">
+
+        <LinearLayout
+                android:id="@+id/rootLinear"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+            <RelativeLayout android:id="@+id/relativeLayout" android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:text="@string/text_route_layout_cash_to_pay" android:id="@+id/textViewToPay"
+                          android:layout_alignParentTop="true" android:layout_marginTop="10dp"
+                          android:layout_marginLeft="20dp"/>
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:text="@string/text_route_layout_route_info" android:id="@+id/textViewInfoRoute"
+                          android:layout_alignParentRight="true"
+                          android:layout_marginRight="20dp" android:layout_alignTop="@+id/textViewToPay"/>
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:text="0"
+                          android:id="@id/textViewCashValue" android:layout_below="@+id/textViewToPay"
+                          android:layout_alignLeft="@+id/textViewToPay" android:layout_alignStart="@+id/textViewToPay"
+                          android:layout_marginTop="45dp"/>
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:text="New Text"
+                          android:id="@id/textViewRouteCurrentTariffName" android:layout_alignLeft="@+id/textViewInfoRoute"
+                          android:layout_alignStart="@+id/textViewInfoRoute"
+                          android:layout_below="@+id/textViewInfoRoute"
+                          android:layout_marginTop="5dp"/>
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:text="New Text"
+                          android:id="@+id/textViewPricePerKm" android:layout_alignLeft="@id/textViewRouteCurrentTariffName"
+                          android:layout_alignStart="@id/textViewRouteCurrentTariffName" android:layout_below="@id/textViewRouteCurrentTariffName"
+                          android:layout_marginTop="5dp"/>
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:text="@string/text_route_layout_route_time_info" android:id="@+id/textViewTime"
+                          android:layout_alignTop="@+id/textViewToPay"
+                          android:layout_alignParentRight="false" android:layout_centerHorizontal="true"
+                          android:layout_toRightOf="@+id/textViewToPay" android:layout_marginLeft="50dp"/>
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:text="0"
+                          android:id="@+id/textViewWholeTime"
+                          android:layout_marginTop="10dp" android:layout_below="@+id/textViewTime"
+                          android:layout_alignLeft="@+id/textViewTime"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New Text"
+                        android:id="@id/textViewStartPrice" android:layout_alignParentBottom="false"
+                        android:layout_alignLeft="@+id/textViewPricePerKm"
+                        android:layout_alignStart="@+id/textViewPricePerKm" android:layout_marginTop="5dp"
+                        android:layout_below="@+id/textViewPricePerKm"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:id="@+id/textViewWaitingTime" android:layout_below="@+id/textViewWholeTime"
+                        android:layout_alignLeft="@+id/textViewWholeTime"
+                        android:layout_alignStart="@+id/textViewWholeTime" android:layout_marginTop="5dp"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:id="@+id/textViewDistance" android:layout_below="@+id/textViewWaitingTime"
+                        android:layout_centerHorizontal="true" android:layout_alignLeft="@+id/textViewWaitingTime"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" android:layout_marginTop="5dp">
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" android:id="@+id/childrenLinear"
+                        android:layout_toRightOf="@+id/smokeLinear" android:layout_alignTop="@+id/smokeLinear"
+                        android:layout_marginLeft="20dp">
+                    <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:id="@+id/imageViewChildrenChair"
+                            android:layout_below="@+id/textViewAdditionServices"
+                            android:layout_toRightOf="@+id/imageViewSmoke"
+                            android:src="@drawable/children_chair" android:layout_gravity="center_horizontal"
+                            android:background="@drawable/button_service_normal_selector"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New Text"
+                            android:id="@id/textViewChildrenChairPrice" android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="5dp"/>
+                </LinearLayout>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_route_layout_route_addition_services"
+                        android:id="@+id/textViewAdditionServices"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentBottom="false" android:layout_alignParentTop="true"
+                        android:layout_marginBottom="5dp"/>
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" android:layout_below="@+id/textViewAdditionServices"
+                        android:layout_centerHorizontal="true" android:id="@+id/smokeLinear">
+                    <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:id="@+id/imageViewSmoke"
+                            android:layout_below="@+id/textViewAdditionServices"
+                            android:layout_centerHorizontal="true" android:src="@drawable/smoking"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@drawable/button_service_normal_selector"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New Text"
+                            android:id="@id/textViewSmokePrice" android:layout_below="@+id/imageViewAnimals"
+                            android:gravity="center_horizontal" android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="5dp"/>
+                </LinearLayout>
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" android:id="@+id/otherServicesLinear"
+                        android:layout_alignTop="@+id/smokeLinear" android:layout_toRightOf="@+id/childrenLinear"
+                        android:layout_marginLeft="20dp">
+                    <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:id="@+id/imageViewOthers"
+                            android:layout_below="@+id/textViewAdditionServices"
+                            android:layout_toRightOf="@+id/imageViewChildrenChair"
+                            android:src="@drawable/others_icon" android:layout_gravity="center_horizontal"
+                            android:background="@drawable/button_service_normal_selector"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New Text"
+                            android:id="@id/textViewOthersPrice" android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="5dp"/>
+                </LinearLayout>
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" android:id="@+id/LuggageLinear"
+                        android:layout_alignTop="@+id/smokeLinear" android:layout_toLeftOf="@+id/smokeLinear"
+                        android:layout_marginRight="20dp">
+                    <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:id="@+id/imageViewLuggage"
+                            android:layout_below="@+id/textViewAdditionServices"
+                            android:layout_toLeftOf="@+id/imageViewSmoke"
+                            android:src="@drawable/luggage" android:layout_gravity="center_horizontal"
+                            android:background="@drawable/button_service_normal_selector"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New Text"
+                            android:id="@id/textViewLuggagePrice" android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="5dp"/>
+                </LinearLayout>
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" android:id="@+id/AnimalLinear"
+                        android:layout_alignTop="@+id/smokeLinear" android:layout_toLeftOf="@+id/LuggageLinear"
+                        android:layout_marginRight="20dp">
+                    <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:id="@+id/imageViewAnimals"
+                            android:layout_below="@+id/textViewAdditionServices"
+                            android:layout_toLeftOf="@+id/imageViewLuggage"
+                            android:src="@drawable/animal" android:layout_gravity="center_horizontal"
+                            android:background="@drawable/button_service_normal_selector"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New Text"
+                            android:id="@id/textViewAnimalPrice" android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="5dp"/>
+                </LinearLayout>
+            </RelativeLayout>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+                    android:weightSum="3" android:layout_below="@+id/imageViewAnimals" android:layout_marginTop="10dp">
+                <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_route_layout_route_start"
+                        android:id="@+id/button_route_layout_start"
+
+                        style="@style/ButtonsStyleRouteLayout"
+                        android:layout_weight="1"/>
+                <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_route_layout_route_wait"
+                        android:id="@+id/button_route_layout_wait"
+
+                        style="@style/ButtonsStyleRouteLayout"
+                        android:layout_weight="1"/>
+                <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_exit"
+                        android:id="@+id/buttonRouteLayoutExit"
+                        style="@style/ButtonsStyleRouteLayout"
+                        android:layout_weight="1"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

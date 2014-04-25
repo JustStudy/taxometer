@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/tariff_edit_context_menu_edit" android:title="@string/text_context_menu_edit_tariff"></item>
+    <item android:title="@string/text_context_menu_set_as_default" android:id="@+id/tariff_edit_context_menu_set_as_default"></item>
+    <item android:id="@+id/tariff_edit_context_menu_delete" android:title="@string/text_context_menu_delete_tariff"></item>
+    <item android:id="@+id/tariff_edit_context_menu_add"  android:title="@string/text_context_menu_add_new_tariff"></item>
+</menu>

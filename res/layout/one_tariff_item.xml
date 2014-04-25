@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <ImageView
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/imageViewIconTariff" android:layout_marginLeft="10dp"
+            android:src="@drawable/default_tariff_icon" android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true" android:layout_marginTop="10dp" android:layout_marginBottom="5dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textViewNameTariff"
+            android:layout_centerHorizontal="true" android:layout_marginTop="20dp"
+            android:textSize="@dimen/text_size_name_tariff_list_view_item"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textViewTariffListViewItemPricePerKm" android:layout_below="@+id/imageViewIconTariff"
+            android:layout_alignLeft="@+id/imageViewIconTariff"/>
+    <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textViewTariffListViewItemStartPrice"
+            android:layout_alignLeft="@+id/imageViewIconTariff"
+            android:layout_below="@+id/textViewTariffListViewItemPricePerKm" android:layout_marginBottom="5dp"/>
+    <RadioButton
+            android:layout_width="@dimen/radio_button_dimens_tariff_list_view_item"
+            android:layout_height="@dimen/radio_button_dimens_tariff_list_view_item"
+            android:id="@+id/radioButtonTariffListViewItem"  android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp" android:layout_centerVertical="true"
+            android:focusable="false"
+            android:clickable="false"
+            />
+</RelativeLayout>

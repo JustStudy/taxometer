@@ -1,0 +1,1194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayoutPreviewToolWindow">
+    <option name="state">
+      <GlobalState />
+    </option>
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/res/layout-land/route_layout.xml">
+        <config>
+          <device>3.2in QVGA (ADP2)</device>
+          <state>Landscape</state>
+          <theme>@style/Theme.AppCompat.Light.DarkActionBar</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/result_layout.xml">
+        <config>
+          <device>3.2in QVGA (ADP2)</device>
+          <theme>@style/Theme.Sherlock.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/route_layout.xml">
+        <config>
+          <device>3.2in QVGA (ADP2)</device>
+          <theme>@style/Theme.Sherlock.Light</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/taximeter_layout.xml">
+        <config>
+          <device>Nexus 4</device>
+          <theme>@style/Theme.AppCompat.Light.DarkActionBar</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5a9bcd77-5c54-4da7-8dfa-6182354b6c7c" name="Default" comment="" />
+    <ignored path="taxometer.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/developer/taxometer/database/DataBaseOrmHelper.java" line="106" class="com.developer.taxometer.database.DataBaseOrmHelper" package="com.developer.taxometer.database">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/developer/taxometer/activities/ResultRouteActivity.java" line="140" class="com.developer.taxometer.activities.ResultRouteActivity$2" package="com.developer.taxometer.activities">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="taxometer" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="StartRouteActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/developer/taxometer/activities/StartRouteActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="459" column="29" selection-start="20763" selection-end="20763" vertical-scroll-proportion="-0.49586776" vertical-offset="6645" max-vertical-offset="9405">
+              <folding>
+                <element signature="e#3488#3532#0" expanded="true" />
+                <element signature="e#5709#5765#0" expanded="true" />
+                <element signature="e#6123#6158#0" expanded="true" />
+                <element signature="e#6588#6622#0" expanded="true" />
+                <element signature="e#6879#6913#0" expanded="true" />
+                <element signature="e#7073#7108#0" expanded="true" />
+                <element signature="e#9390#9434#0" expanded="true" />
+                <element signature="e#9526#9591#0" expanded="true" />
+                <element signature="e#9649#9713#0" expanded="true" />
+                <element signature="e#9831#9883#0" expanded="true" />
+                <element signature="e#9934#9982#0" expanded="true" />
+                <element signature="e#10024#10087#0" expanded="true" />
+                <element signature="e#11414#11471#0" expanded="true" />
+                <element signature="e#12832#12887#0" expanded="true" />
+                <element signature="e#13009#13065#0" expanded="true" />
+                <element signature="e#13964#14020#0" expanded="true" />
+                <element signature="e#14304#14352#0" expanded="true" />
+                <element signature="e#14491#14531#0" expanded="true" />
+                <element signature="e#14533#14835#0" expanded="true" />
+                <element signature="e#14820#14821#0" expanded="true" />
+                <element signature="e#14887#14928#0" expanded="true" />
+                <element signature="e#16291#16332#0" expanded="true" />
+                <element signature="e#16367#16410#0" expanded="true" />
+                <element signature="e#16452#16493#0" expanded="true" />
+                <element signature="e#16795#16835#0" expanded="true" />
+                <element signature="e#17677#17712#0" expanded="true" />
+                <element signature="e#18381#18446#0" expanded="true" />
+                <element signature="e#21242#21294#0" expanded="true" />
+                <element signature="e#21388#21422#0" expanded="true" />
+                <element signature="e#21679#21727#0" expanded="true" />
+                <element signature="e#32455#32512#0" expanded="true" />
+                <element signature="e#32733#32791#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Route.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/developer/taxometer/models/Route.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="101" column="12" selection-start="2658" selection-end="2658" vertical-scroll-proportion="0.0" vertical-offset="1515" max-vertical-offset="2940">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResultRouteActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/developer/taxometer/activities/ResultRouteActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="0" selection-start="3425" selection-end="3425" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="2265">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="array.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values-en/array.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="37" selection-start="1253" selection-end="1253" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="825">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="array.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values-ru/array.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="19" selection-start="1305" selection-end="1305" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="825">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaximeterApplication.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/developer/taxometer/TaximeterApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="result_layout.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/result_layout.xml">
+          <provider editor-type-id="text-editor">
+            <state line="97" column="19" selection-start="6110" selection-end="6110" vertical-scroll-proportion="0.0" vertical-offset="1455" max-vertical-offset="1575">
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values-uk/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="50" selection-start="2667" selection-end="2667" vertical-scroll-proportion="0.0" vertical-offset="441" max-vertical-offset="1560">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="route_layout.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/route_layout.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="57" column="81" selection-start="3008" selection-end="3008" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="3735">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="50" selection-start="3013" selection-end="3019" vertical-scroll-proportion="0.0" vertical-offset="881" max-vertical-offset="1260">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/res/drawable/button_pressed_selector.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/button_service_normal_selector.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/button_service_pressed_selector.xml" />
+        <option value="$PROJECT_DIR$/src/com/developer/taxometer/activities/EditSomeTariffActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/developer/taxometer/activities/CreateNewTariffActivity.java" />
+        <option value="$PROJECT_DIR$/res/menu/menu.xml" />
+        <option value="$PROJECT_DIR$/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/res/values-xhdpi/dimens.xml" />
+        <option value="$PROJECT_DIR$/res/values-xxhdpi/dimens.xml" />
+        <option value="$PROJECT_DIR$/res/values-mdpi/dimens.xml" />
+        <option value="$PROJECT_DIR$/src/com/developer/taxometer/utils/SharedPreferenceHelper.java" />
+        <option value="$PROJECT_DIR$/res/xml/app_setting.xml" />
+        <option value="$PROJECT_DIR$/src/com/developer/taxometer/activities/TariffsListActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/developer/taxometer/activities/TaximeterActivity.java" />
+        <option value="$PROJECT_DIR$/res/values/dimens.xml" />
+        <option value="$PROJECT_DIR$/res/values/constants.xml" />
+        <option value="$PROJECT_DIR$/res/xml/preference_gps_config.xml" />
+        <option value="$PROJECT_DIR$/src/com/developer/taxometer/utils/LanguageHelper.java" />
+        <option value="$PROJECT_DIR$/res/layout/dialog_layout_show_list_tariffs.xml" />
+        <option value="$PROJECT_DIR$/src/com/developer/taxometer/models/TariffModel.java" />
+        <option value="$PROJECT_DIR$/src/com/developer/taxometer/models/Coordinate.java" />
+        <option value="$PROJECT_DIR$/res/layout/alert_dialog_no_tariffs.xml" />
+        <option value="$PROJECT_DIR$/res/menu/tariff_edit_context_menu.xml" />
+        <option value="$PROJECT_DIR$/res/layout/edit_tariff_layout.xml" />
+        <option value="$PROJECT_DIR$/src/com/developer/taxometer/database/DataBaseOrmHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/developer/taxometer/utils/TaximeterAlertDialog.java" />
+        <option value="$PROJECT_DIR$/res/values/array.xml" />
+        <option value="$PROJECT_DIR$/res/values-en/array.xml" />
+        <option value="$PROJECT_DIR$/res/values-ru/array.xml" />
+        <option value="$PROJECT_DIR$/res/values-uk/array.xml" />
+        <option value="$PROJECT_DIR$/res/xml/preference_general.xml" />
+        <option value="$PROJECT_DIR$/src/com/developer/taxometer/utils/AppConstants.java" />
+        <option value="$PROJECT_DIR$/src/com/developer/taxometer/utils/PreferenceHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/developer/taxometer/activities/MainStartActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/developer/taxometer/activities/ConfigurationActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/developer/taxometer/utils/TimerUtils.java" />
+        <option value="$PROJECT_DIR$/res/layout-land/route_layout.xml" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/developer/taxometer/services/LocationService.java" />
+        <option value="$PROJECT_DIR$/res/xml/preference_headers.xml" />
+        <option value="$PROJECT_DIR$/src/com/developer/taxometer/activities/ManipulateTariffActivity.java" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/res/values-en/strings.xml" />
+        <option value="$PROJECT_DIR$/res/values-ru/strings.xml" />
+        <option value="$PROJECT_DIR$/res/values-uk/strings.xml" />
+        <option value="$PROJECT_DIR$/res/layout/route_layout.xml" />
+        <option value="$PROJECT_DIR$/src/com/developer/taxometer/models/Route.java" />
+        <option value="$PROJECT_DIR$/res/layout/result_layout.xml" />
+        <option value="$PROJECT_DIR$/src/com/developer/taxometer/activities/ResultRouteActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/developer/taxometer/TaximeterApplication.java" />
+        <option value="$PROJECT_DIR$/src/com/developer/taxometer/activities/StartRouteActivity.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="52" />
+    <option name="width" value="1920" />
+    <option name="height" value="1004" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectStructureProblems">
+    <ignored-problems>
+      <problem id="unused-library(library:project:support)" />
+    </ignored-problems>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taxometer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taxometer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taxometer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taxometer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taxometer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taxometer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taxometer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taxometer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taxometer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/modules/actionbarsherlock" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="SH25VW503284" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="4.3_xxhdpi" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="DEBUGGABLE_DEVICE" value="emulator-5554 (api10)" />
+    <property name="DEBUGGABLE_PROCESS" value="com.developer.taxometer" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="316" />
+    <property name="SearchEverywhereHistory" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/res/values-uk" />
+      <recent name="$PROJECT_DIR$/res/values-ru" />
+      <recent name="$PROJECT_DIR$/res/values-en" />
+      <recent name="$PROJECT_DIR$/res/values-xhdpi" />
+      <recent name="$PROJECT_DIR$/res/values-xxhdpi" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.developer.taxometer" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/res" />
+      <recent name="$PROJECT_DIR$/assets/tariff_icons" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android Application.taxometer">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="taxometer" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="taxometer" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="true" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Android Application.taxometer" />
+    </list>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a9bcd77-5c54-4da7-8dfa-6182354b6c7c" name="Default" comment="" />
+      <created>1395662314181</created>
+      <updated>1395662314181</updated>
+      <workItem from="1396248202588" duration="601000" />
+      <workItem from="1396250181086" duration="461000" />
+      <workItem from="1396250789097" duration="15210000" />
+      <workItem from="1396270296415" duration="7353000" />
+      <workItem from="1396335956796" duration="23485000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="47110000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="52" width="1920" height="1004" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35022524" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4177363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38623103" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19062833" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.500516" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30101466" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5411499" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905483" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12832801" sideWeight="0.49818182" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31116122" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30916846" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32807216" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/developer/taxometer/activities/TaximeterActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="40" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.0" vertical-offset="2304" max-vertical-offset="2805" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/developer/taxometer/utils/Filters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.5988024" vertical-offset="0" max-vertical-offset="501">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/constants.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/xml/preference_gps_config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AndroidSDK/platforms/android-19/android.jar!/android/widget/Chronometer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="16" selection-start="581" selection-end="581" vertical-scroll-proportion="0.332696" vertical-offset="21" max-vertical-offset="690" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/dialog_layout_show_list_tariffs.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570" />
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AndroidSDK/platforms/android-19/android.jar!/android/app/Dialog.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="16" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.33255813" vertical-offset="104" max-vertical-offset="2745" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AndroidSDK/platforms/android-19/android.jar!/android/database/sqlite/SQLiteDatabase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="184" column="0" selection-start="10541" selection-end="10541" vertical-scroll-proportion="0.82" vertical-offset="2335" max-vertical-offset="2835" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/developer/taxometer/models/Coordinate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="42" selection-start="2970" selection-end="2970" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1560" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/alert_dialog_no_tariffs.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195" />
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/edit_tariff_layout.xml">
+      <provider editor-type-id="text-editor">
+        <state line="60" column="12" selection-start="3099" selection-end="3099" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200" />
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/menu/tariff_edit_context_menu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="7" selection-start="614" selection-end="614" vertical-scroll-proportion="0.23391813" vertical-offset="0" max-vertical-offset="513" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/developer/taxometer/models/TariffModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="34" selection-start="263" selection-end="263" vertical-scroll-proportion="0.14285715" vertical-offset="0" max-vertical-offset="2790" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/developer/taxometer/database/DataBaseHelperFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="194" selection-end="194" vertical-scroll-proportion="0.20874752" vertical-offset="0" max-vertical-offset="503" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AndroidSDK/platforms/android-19/android.jar!/android/app/Service.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="22" selection-start="163" selection-end="163" vertical-scroll-proportion="0.1565762" vertical-offset="0" max-vertical-offset="915" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/developer/taxometer/utils/TaximeterAlertDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="0" selection-start="3919" selection-end="3919" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1590" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values-uk/array.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="24" selection-start="1287" selection-end="1287" vertical-scroll-proportion="0.0" vertical-offset="257" max-vertical-offset="825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/developer/taxometer/utils/SharedPreferenceHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="54" selection-start="434" selection-end="465" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/developer/taxometer/activities/MainStartActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="147" column="62" selection-start="4825" selection-end="4825" vertical-scroll-proportion="0.0" vertical-offset="1575" max-vertical-offset="2115" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/developer/taxometer/utils/PreferenceHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="65" selection-start="2175" selection-end="2175" vertical-scroll-proportion="0.83433133" vertical-offset="272" max-vertical-offset="900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout-land/route_layout.xml">
+      <provider editor-type-id="text-editor">
+        <state line="82" column="29" selection-start="5297" selection-end="5297" vertical-scroll-proportion="0.0" vertical-offset="913" max-vertical-offset="3600" />
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/scopes/scope_settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="860" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/developer/taxometer/database/DataBaseOrmHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="0" selection-start="3051" selection-end="3051" vertical-scroll-proportion="0.0" vertical-offset="895" max-vertical-offset="1755">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/array.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="28" selection-start="875" selection-end="875" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/xml/app_setting.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="45" selection-start="250" selection-end="250" vertical-scroll-proportion="0.10380623" vertical-offset="0" max-vertical-offset="867" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/xml/preference_general.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/developer/taxometer/activities/ConfigurationActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="13" selection-start="701" selection-end="701" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2400" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/developer/taxometer/utils/LanguageHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="83" selection-start="1799" selection-end="1799" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/developer/taxometer/activities/EditSomeTariffActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="36" selection-start="2021" selection-end="2021" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/developer/taxometer/activities/ManipulateTariffActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="297" column="41" selection-start="14670" selection-end="14670" vertical-scroll-proportion="0.7136038" vertical-offset="3377" max-vertical-offset="4260" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/developer/taxometer/utils/AppConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="1945" selection-end="1945" vertical-scroll-proportion="0.49302325" vertical-offset="101" max-vertical-offset="990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/developer/taxometer/activities/CreateNewTariffActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="22" selection-start="1560" selection-end="1560" vertical-scroll-proportion="0.9244186" vertical-offset="0" max-vertical-offset="930" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/xml/preference_headers.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="21" selection-start="925" selection-end="925" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/developer/taxometer/services/LocationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="315" column="44" selection-start="8880" selection-end="8880" vertical-scroll-proportion="0.0" vertical-offset="2970" max-vertical-offset="7440">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/actionbarsherlock/src/com/actionbarsherlock/app/SherlockActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="228" column="0" selection-start="7004" selection-end="7004" vertical-scroll-proportion="0.33251232" vertical-offset="3045" max-vertical-offset="3990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/actionbarsherlock/src/com/actionbarsherlock/internal/ActionBarSherlockCompat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="850" column="46" selection-start="30995" selection-end="30995" vertical-scroll-proportion="0.8446602" vertical-offset="11640" max-vertical-offset="17025" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/developer/taxometer/utils/TimerUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="60" selection-start="2075" selection-end="2105" vertical-scroll-proportion="1.3479053" vertical-offset="190" max-vertical-offset="1455" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="59" selection-start="2584" selection-end="2584" vertical-scroll-proportion="0.12568305" vertical-offset="561" max-vertical-offset="1635">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values-en/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="59" selection-start="2642" selection-end="2642" vertical-scroll-proportion="0.25318763" vertical-offset="506" max-vertical-offset="1560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values-ru/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="50" selection-start="2661" selection-end="2661" vertical-scroll-proportion="0.48816028" vertical-offset="377" max-vertical-offset="1545">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values-uk/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="50" selection-start="2667" selection-end="2667" vertical-scroll-proportion="0.0" vertical-offset="441" max-vertical-offset="1560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/route_layout.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="81" selection-start="3008" selection-end="3008" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="3735">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/developer/taxometer/models/Route.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="12" selection-start="2658" selection-end="2658" vertical-scroll-proportion="0.0" vertical-offset="939" max-vertical-offset="2325">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/result_layout.xml">
+      <provider editor-type-id="text-editor">
+        <state line="97" column="19" selection-start="6110" selection-end="6110" vertical-scroll-proportion="0.0" vertical-offset="1455" max-vertical-offset="1575">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values-en/array.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="37" selection-start="1253" selection-end="1253" vertical-scroll-proportion="0.0" vertical-offset="257" max-vertical-offset="825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values-ru/array.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="19" selection-start="1305" selection-end="1305" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/developer/taxometer/activities/ResultRouteActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="0" selection-start="3425" selection-end="3425" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1980">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="50" selection-start="3013" selection-end="3019" vertical-scroll-proportion="0.0" vertical-offset="881" max-vertical-offset="1260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/developer/taxometer/TaximeterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/developer/taxometer/activities/StartRouteActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="459" column="29" selection-start="20763" selection-end="20763" vertical-scroll-proportion="-0.49586776" vertical-offset="6645" max-vertical-offset="9405">
+          <folding>
+            <element signature="e#3488#3532#0" expanded="true" />
+            <element signature="e#5709#5765#0" expanded="true" />
+            <element signature="e#6123#6158#0" expanded="true" />
+            <element signature="e#6588#6622#0" expanded="true" />
+            <element signature="e#6879#6913#0" expanded="true" />
+            <element signature="e#7073#7108#0" expanded="true" />
+            <element signature="e#9390#9434#0" expanded="true" />
+            <element signature="e#9526#9591#0" expanded="true" />
+            <element signature="e#9649#9713#0" expanded="true" />
+            <element signature="e#9831#9883#0" expanded="true" />
+            <element signature="e#9934#9982#0" expanded="true" />
+            <element signature="e#10024#10087#0" expanded="true" />
+            <element signature="e#11414#11471#0" expanded="true" />
+            <element signature="e#12832#12887#0" expanded="true" />
+            <element signature="e#13009#13065#0" expanded="true" />
+            <element signature="e#13964#14020#0" expanded="true" />
+            <element signature="e#14304#14352#0" expanded="true" />
+            <element signature="e#14491#14531#0" expanded="true" />
+            <element signature="e#14533#14835#0" expanded="true" />
+            <element signature="e#14820#14821#0" expanded="true" />
+            <element signature="e#14887#14928#0" expanded="true" />
+            <element signature="e#16291#16332#0" expanded="true" />
+            <element signature="e#16367#16410#0" expanded="true" />
+            <element signature="e#16452#16493#0" expanded="true" />
+            <element signature="e#16795#16835#0" expanded="true" />
+            <element signature="e#17677#17712#0" expanded="true" />
+            <element signature="e#18381#18446#0" expanded="true" />
+            <element signature="e#21242#21294#0" expanded="true" />
+            <element signature="e#21388#21422#0" expanded="true" />
+            <element signature="e#21679#21727#0" expanded="true" />
+            <element signature="e#32455#32512#0" expanded="true" />
+            <element signature="e#32733#32791#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android (actionbarsherlock)|Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>android-support-v4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>unifiedPreference</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>android-support-v4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+            android:summary="@string/text_pref_lang_subtitle"
+            android:entries="@array/language_array_text"
+            android:entryValues="@array/language_array_values"
+            android:key="@string/text_shared_pref_name_key_language_list"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="@string/pref_title_set_language" />
+
+    <ListPreference
+            android:summary="@string/text_pref_money_list_subtitle"
+            android:entries="@array/money_array_text"
+            android:entryValues="@array/money_array_values"
+            android:key="@string/text_shared_pref_name_key_money_list"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="@string/text_pref_money_list_title" />
+</PreferenceScreen>
